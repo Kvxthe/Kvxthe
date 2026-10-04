@@ -1,0 +1,69 @@
+{
+  "username": "Kvxthe",
+  "name": "Kvxthe",
+  "host": "Aegis",
+  "snake": true,
+  "role": "Software Engineering student",
+  "neofetch": [
+    ["role", "Software Engineering Student"],
+    ["langs", "Luau / Python / Java / JavaScript"],
+    ["tools", "Roblox Studio / Blender / Git / Jira"],
+    ["focus", "Game Dev / OOP / System Architecture / Backend"],
+    ["build", "Aegis / RiTech SAS / Smart Home IoT"]
+  ],
+  "stats": {
+    "status": "focus mode / building",
+    "uptime": "learning continuously"
+  },
+  "languages": [
+    ["Luau", 100],
+    ["Python", 85],
+    ["Java", 80],
+    ["JavaScript", 65],
+    ["TypeScript", 50]
+  ],
+  "utc_offset": -5,
+  "commit_hours": [60, 50, 30, 80, 30, 90, 70, 10, 40, 0, 10, 0, 0, 0, 0, 30, 40, 20, 50, 60, 100, 100, 70, 40],
+  "trophies": [
+    ["Designed RiTech SAS Export SRS System.", "postgresql / uml & scrum / architecture"],
+    ["Built Smart Home IoT Dashboard in JavaFX.", "java 17 / adapter & bridge design patterns"],
+    ["Created ODE System Stability Simulator.", "python / numpy / matplotlib / streamlit"],
+    ["Developed Custom Mechanics in Roblox.", "luau / character abilities & remoteevents"]
+  ],
+  "contact": [
+    ["discord", "kvxthe"],
+    ["github", "github.com/Kvxthe"]
+  ],
+  "now": [
+    "building local assistant Aegis",
+    "scripting custom Luau mechanics in Roblox Studio",
+    "developing JavaFX applications with design patterns"
+  ],
+  "skills": [
+    ["languages", "luau", "Running", "2y", 92],
+    ["languages", "python", "Running", "2y", 88],
+    ["languages", "java", "Running", "2y", 85],
+    ["languages", "javascript", "Ready", "2y", 70],
+    ["languages", "typescript", "Ready", "1y", 65],
+    ["tooling", "roblox-studio", "Running", "2y", 92],
+    ["tooling", "blender-meshyai", "Ready", "1y", 75],
+    ["tooling", "jira-confluence", "Running", "2y", 85],
+    ["tooling", "plantuml-drawio", "Running", "2y", 88],
+    ["tooling", "git-maven", "Running", "2y", 85],
+    ["frameworks", "fastapi", "Running", "2y", 82],
+    ["frameworks", "javafx", "Running", "2y", 85],
+    ["frameworks", "streamlit", "Ready", "1y", 78],
+    ["frameworks", "postgresql", "Ready", "2y", 80]
+  ],
+  "socials": [
+    ["GitHub", "https://github.com/Kvxthe", "github"]
+  ],
+  "status": {
+    "mode": "auto",
+    "detect_push_minutes": 45,
+    "windows": {
+      "coding": ["09-13", "15-18", "20-23"],
+      "online": ["07-09", "13-15", "18-20"]
+    }
+  }
+}
