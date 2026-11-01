@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 512" width="830" height="512" role="img" aria-labelledby="t d">
   <title id="t">kvxthe github activity</title>
-  <desc id="d">GitHub activity for Kvxthe over the last year: contributions 15, commits 13, pull requests 0, issues 0, repositories 2, stars 0, streak 1 day  (best 2), on github since 2025. Top languages: JavaScript 96%, CSS 3%, HTML 1%.</desc>
+  <desc id="d">GitHub activity for Kvxthe over the last year: contributions 16, commits 14, pull requests 0, issues 0, repositories 2, stars 0, streak 1 day  (best 2), on github since 2025. Top languages: JavaScript 63%, Python 35%, CSS 2%, HTML 0%.</desc>
   <style>
   .mono { font-family: 'JetBrains Mono','Cascadia Mono','DejaVu Sans Mono',Menlo,Consolas,'Liberation Mono',monospace; font-size: 13px; }
   .key  { fill: #A855F7; }
@@ -30,8 +30,8 @@
   <text x="24" y="70" class="mono" xml:space="preserve"><tspan class="usr">kvxthe@aegis</tspan><tspan class="dim">:~$ </tspan></text>
   <text x="141" y="70" class="mono val" clip-path="url(#type)">gh stats --last-year</text>
   <text x="24" y="106" class="mono ln" style="animation-delay:1.10s" xml:space="preserve"><tspan class="dim"># summary</tspan></text>
-  <text x="24" y="132" class="mono ln" style="animation-delay:1.20s" xml:space="preserve"><tspan class="key">contributions  </tspan><tspan class="val">15</tspan></text>
-  <text x="24" y="154" class="mono ln" style="animation-delay:1.26s" xml:space="preserve"><tspan class="key">commits        </tspan><tspan class="val">13</tspan></text>
+  <text x="24" y="132" class="mono ln" style="animation-delay:1.20s" xml:space="preserve"><tspan class="key">contributions  </tspan><tspan class="val">16</tspan></text>
+  <text x="24" y="154" class="mono ln" style="animation-delay:1.26s" xml:space="preserve"><tspan class="key">commits        </tspan><tspan class="val">14</tspan></text>
   <text x="24" y="176" class="mono ln" style="animation-delay:1.32s" xml:space="preserve"><tspan class="key">pull requests  </tspan><tspan class="val">0</tspan></text>
   <text x="24" y="198" class="mono ln" style="animation-delay:1.38s" xml:space="preserve"><tspan class="key">issues         </tspan><tspan class="val">0</tspan></text>
   <text x="24" y="220" class="mono ln" style="animation-delay:1.44s" xml:space="preserve"><tspan class="key">repositories   </tspan><tspan class="val">2</tspan></text>
@@ -41,16 +41,20 @@
   <text x="430" y="106" class="mono ln" style="animation-delay:1.10s" xml:space="preserve"><tspan class="dim"># languages by size</tspan></text>
   <text x="430" y="132" class="mono ln" style="animation-delay:1.20s" xml:space="preserve"><tspan class="val">JavaScript</tspan></text>
   <rect x="548" y="123" width="200" height="8" rx="2" fill="#1E1433"/>
-  <rect class="bar" style="animation-delay:1.30s" x="548" y="123" width="192.3" height="8" rx="2" fill="#E9D5FF"/>
-  <text x="806" y="132" class="mono ln" text-anchor="end" style="animation-delay:1.20s" xml:space="preserve"><tspan class="dim">96%</tspan></text>
-  <text x="430" y="154" class="mono ln" style="animation-delay:1.26s" xml:space="preserve"><tspan class="val">CSS</tspan></text>
+  <rect class="bar" style="animation-delay:1.30s" x="548" y="123" width="125.5" height="8" rx="2" fill="#E9D5FF"/>
+  <text x="806" y="132" class="mono ln" text-anchor="end" style="animation-delay:1.20s" xml:space="preserve"><tspan class="dim">63%</tspan></text>
+  <text x="430" y="154" class="mono ln" style="animation-delay:1.26s" xml:space="preserve"><tspan class="val">Python</tspan></text>
   <rect x="548" y="145" width="200" height="8" rx="2" fill="#1E1433"/>
-  <rect class="bar" style="animation-delay:1.36s" x="548" y="145" width="6.2" height="8" rx="2" fill="#C084FC"/>
-  <text x="806" y="154" class="mono ln" text-anchor="end" style="animation-delay:1.26s" xml:space="preserve"><tspan class="dim">3%</tspan></text>
-  <text x="430" y="176" class="mono ln" style="animation-delay:1.32s" xml:space="preserve"><tspan class="val">HTML</tspan></text>
+  <rect class="bar" style="animation-delay:1.36s" x="548" y="145" width="69.5" height="8" rx="2" fill="#C084FC"/>
+  <text x="806" y="154" class="mono ln" text-anchor="end" style="animation-delay:1.26s" xml:space="preserve"><tspan class="dim">35%</tspan></text>
+  <text x="430" y="176" class="mono ln" style="animation-delay:1.32s" xml:space="preserve"><tspan class="val">CSS</tspan></text>
   <rect x="548" y="167" width="200" height="8" rx="2" fill="#1E1433"/>
-  <rect class="bar" style="animation-delay:1.42s" x="548" y="167" width="2.0" height="8" rx="2" fill="#A855F7"/>
-  <text x="806" y="176" class="mono ln" text-anchor="end" style="animation-delay:1.32s" xml:space="preserve"><tspan class="dim">1%</tspan></text>
+  <rect class="bar" style="animation-delay:1.42s" x="548" y="167" width="4.1" height="8" rx="2" fill="#A855F7"/>
+  <text x="806" y="176" class="mono ln" text-anchor="end" style="animation-delay:1.32s" xml:space="preserve"><tspan class="dim">2%</tspan></text>
+  <text x="430" y="198" class="mono ln" style="animation-delay:1.38s" xml:space="preserve"><tspan class="val">HTML</tspan></text>
+  <rect x="548" y="189" width="200" height="8" rx="2" fill="#1E1433"/>
+  <rect class="bar" style="animation-delay:1.48s" x="548" y="189" width="2.0" height="8" rx="2" fill="#7C3AED"/>
+  <text x="806" y="198" class="mono ln" text-anchor="end" style="animation-delay:1.38s" xml:space="preserve"><tspan class="dim">0%</tspan></text>
   <text x="430" y="264" class="mono ln" style="animation-delay:1.50s" xml:space="preserve"><tspan class="dim"># rhythm</tspan></text>
   <text x="430" y="286" class="mono ln" style="animation-delay:1.56s" xml:space="preserve"><tspan class="key">busiest day    </tspan><tspan class="val">Sunday</tspan></text>
   <text x="430" y="308" class="mono ln" style="animation-delay:1.62s" xml:space="preserve"><tspan class="key">busiest month  </tspan><tspan class="val">October 2026</tspan></text>
