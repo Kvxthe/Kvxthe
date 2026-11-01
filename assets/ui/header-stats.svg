@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="64" viewBox="0 0 830 64">
+<style>
+  .t { fill: #4C1D95; } .s { fill: #7C3AED; } .l { stop-color: #7C3AED; }
+  @media (prefers-color-scheme: dark) {
+    .t { fill: #EDE4FF; } .s { fill: #A855F7; } .l { stop-color: #A855F7; }
+  }
+  text { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+</style>
+<defs>
+  <linearGradient id="fl" x1="0" x2="1"><stop offset="0" class="l" stop-opacity="0"/><stop offset="1" class="l" stop-opacity="0.9"/></linearGradient>
+  <linearGradient id="fr" x1="0" x2="1"><stop offset="0" class="l" stop-opacity="0.9"/><stop offset="1" class="l" stop-opacity="0"/></linearGradient>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<text class="s" x="415.0" y="14" text-anchor="middle" font-size="11" letter-spacing="4" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace">03</text>
+<text class="t" x="415.0" y="47" text-anchor="middle" font-size="20" font-weight="600" letter-spacing="7" filter="url(#glow)">COSMIC STATS</text>
+<rect x="46.19999999999999" y="39.25" width="230" height="1.5" fill="url(#fl)"/>
+<rect x="553.8" y="39.25" width="230" height="1.5" fill="url(#fr)"/>
+<path class="s" d="M276.2 36 L280.2 40 L276.2 44 L272.2 40 Z"/>
+<path class="s" d="M553.8 36 L557.8 40 L553.8 44 L549.8 40 Z"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="70" viewBox="0 0 830 70">
+<style>
+  .t { fill: #4C1D95; } .s { fill: #7C3AED; } .l { stop-color: #7C3AED; }
+  @media (prefers-color-scheme: dark) {
+    .t { fill: #EDE4FF; } .s { fill: #A855F7; } .l { stop-color: #A855F7; }
+  }
+  text { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+</style>
+<defs>
+  <linearGradient id="fl" x1="0" x2="1"><stop offset="0" class="l" stop-opacity="0"/><stop offset="1" class="l" stop-opacity="0.9"/></linearGradient>
+  <linearGradient id="fr" x1="0" x2="1"><stop offset="0" class="l" stop-opacity="0.9"/><stop offset="1" class="l" stop-opacity="0"/></linearGradient>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<text class="t" x="415.0" y="32" text-anchor="middle" font-size="17" font-style="italic" letter-spacing="5" filter="url(#glow)">CODING THROUGH THE VOID</text>
+<circle class="s" cx="587.0" cy="28" r="2"/><circle class="s" cx="596.0" cy="28" r="2" opacity=".7"/><circle class="s" cx="605.0" cy="28" r="2" opacity=".4"/>
+<rect x="235.0" y="52" width="180" height="1" fill="url(#fl)"/>
+<rect x="415.0" y="52" width="180" height="1" fill="url(#fr)"/>
+<path class="s" d="M415.0 49.0 L418.5 52.5 L415.0 56.0 L411.5 52.5 Z"/>
+</svg>
