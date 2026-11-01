@@ -9,6 +9,8 @@
   .usr  { fill: #C084FC; font-weight: 700; }
   .ln   { opacity: 0; animation: show .5s ease-out both; }
   @keyframes show { from { opacity: 0; transform: translateX(-4px); } to { opacity: 1; transform: none; } }
+  .cursor { animation: blink 1.1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
 
   .orbit { animation: orbit linear infinite; }
   @keyframes orbit { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -200; } }
@@ -20,9 +22,6 @@
   @keyframes wobble { 0%, 100% { transform: scale(1, 1); } 50% { transform: scale(1.03, .97); } }
   .star { animation: twinkle ease-in-out infinite; }
   @keyframes twinkle { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
-
-  .cursor { animation: blink 1.1s steps(1) infinite; }
-  @keyframes blink { 50% { opacity: 0; } }
   @media (prefers-reduced-motion: reduce) {
     .ln, .orbit, .halo, .photon, .lens, .star, .cursor { animation: none; opacity: 1; transform: none; }
   }
@@ -34,7 +33,7 @@
     <filter id="glow" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <clipPath id="back"><rect x="0" y="0" width="830" height="238"/></clipPath>
     <clipPath id="front"><rect x="0" y="238" width="830" height="600"/></clipPath>
-    <clipPath id="type"><rect x="141" y="56" height="20" width="0"><animate attributeName="width" from="0" to="72" dur="0.8s" begin="0.3s" fill="freeze"/></rect></clipPath>
+    <clipPath id="type"><rect x="141" y="56" height="20" width="0"><animate attributeName="width" from="0" to="76" dur="0.8s" begin="0.3s" fill="freeze"/></rect></clipPath>
   </defs>
   <rect x="0.5" y="0.5" width="829" height="599" rx="10" fill="#0B0614" stroke="#2A1A40"/>
   <path d="M0.5 36 V10.5 a10 10 0 0 1 10 -10 H819.5 a10 10 0 0 1 10 10 V36 Z" fill="#140B22"/>
@@ -42,8 +41,8 @@
   <circle cx="22" cy="18.5" r="5.5" fill="#A855F7"/>
   <circle cx="42" cy="18.5" r="5.5" fill="#3B2A55"/>
   <circle cx="62" cy="18.5" r="5.5" fill="#3B2A55"/>
-  <text x="415.0" y="23" class="mono" text-anchor="middle" xml:space="preserve"><tspan class="dim">kvxthe@void: ~</tspan></text>
-  <text x="24" y="70" class="mono" xml:space="preserve"><tspan class="usr">kvxthe@void</tspan><tspan class="dim">:~$ </tspan></text>
+  <text x="415.0" y="23" class="mono" text-anchor="middle" xml:space="preserve"><tspan class="dim">kvxthe@aegis: ~</tspan></text>
+  <text x="24" y="70" class="mono" xml:space="preserve"><tspan class="usr">kvxthe@aegis</tspan><tspan class="dim">:~$ </tspan></text>
   <text x="141" y="70" class="mono val" clip-path="url(#type)">neofetch</text>
 
   <g>
@@ -102,8 +101,8 @@
     <circle r="1.8" fill="#F5EEFF" opacity="0"><animateMotion dur="6.2s" begin="4.1s" repeatCount="indefinite" path="M105.6 205.9 L119.1 205.1 L132.7 204.6 L146.2 204.3 L159.5 204.3 L172.5 204.6 L185.1 205.1 L197.2 205.9 L208.7 206.9 L219.6 208.1 L229.8 209.5 L239.2 211.1 L247.8 212.8 L255.5 214.7 L262.4 216.6 L268.3 218.7 L273.3 220.8 L277.4 223.0 L280.6 225.2 L282.9 227.4 L284.2 229.6 L284.7 231.8 L284.4 233.9 L283.3 235.9 L281.5 237.9 L278.9 239.8 L275.7 241.6 L271.9 243.3 L267.6 244.9 L262.8 246.3 L257.6 247.6 L252.0 248.8 L246.2 249.8 L240.1 250.7 L233.9 251.4 L227.6 252.0 L221.2 252.5 L214.9 252.8 L208.6 253.0 L202.4 253.1 L196.4 253.0 L190.5 252.8 L184.9 252.5 L179.5 252.2 L174.4 251.7 L169.6 251.2 L165.2 250.5 L161.0 249.8 L157.2 249.1 L153.8 248.3 L150.7 247.5 L147.9 246.6 L145.5 245.7 L143.4 244.8 L141.6 243.9 L140.1 243.0 L138.9 242.0 L137.9 241.1 L137.2 240.2 L136.6 239.2 L136.0 238.3"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="6.2s" begin="4.1s" repeatCount="indefinite"/><animate attributeName="r" values="1.2;2.2;0.4" dur="6.2s" begin="4.1s" repeatCount="indefinite"/></circle>
     <circle r="1.8" fill="#F5EEFF" opacity="0"><animateMotion dur="9.5s" begin="5.6s" repeatCount="indefinite" path="M242.0 272.3 L228.0 272.7 L214.2 272.8 L200.7 272.6 L187.6 272.1 L174.9 271.4 L162.8 270.5 L151.3 269.3 L140.5 268.0 L130.4 266.4 L121.2 264.7 L112.9 262.8 L105.4 260.9 L98.9 258.8 L93.3 256.6 L88.7 254.4 L85.0 252.1 L82.3 249.8 L80.5 247.6 L79.6 245.3 L79.6 243.1 L80.4 240.9 L82.1 238.8 L84.4 236.8 L87.5 234.9 L91.2 233.1 L95.4 231.4 L100.2 229.9 L105.5 228.5 L111.1 227.2 L117.1 226.1 L123.3 225.1 L129.7 224.3 L136.2 223.6 L142.8 223.1 L149.4 222.7 L156.0 222.5 L162.5 222.3 L168.9 222.4 L175.0 222.5 L181.0 222.8 L186.7 223.1 L192.1 223.6 L197.1 224.1 L201.9 224.7 L206.3 225.4 L210.3 226.2 L214.0 227.0 L217.3 227.9 L220.2 228.8 L222.8 229.7 L225.0 230.6 L226.9 231.6 L228.4 232.6 L229.6 233.5 L230.5 234.5 L231.1 235.5 L231.5 236.4 L231.7 237.4 L231.7 238.3 L231.7 239.3"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="9.5s" begin="5.6s" repeatCount="indefinite"/><animate attributeName="r" values="1.2;2.2;0.4" dur="9.5s" begin="5.6s" repeatCount="indefinite"/></circle>
   </g>
-  <text x="380" y="112" class="mono ln" style="animation-delay:1.10s" xml:space="preserve"><tspan class="usr">kvxthe@void</tspan></text>
-  <text x="380" y="130" class="mono ln" style="animation-delay:1.15s" xml:space="preserve"><tspan class="dim">-----------</tspan></text>
+  <text x="380" y="112" class="mono ln" style="animation-delay:1.10s" xml:space="preserve"><tspan class="usr">kvxthe@aegis</tspan></text>
+  <text x="380" y="130" class="mono ln" style="animation-delay:1.15s" xml:space="preserve"><tspan class="dim">------------</tspan></text>
   <text x="380" y="156" class="mono ln" style="animation-delay:1.22s" xml:space="preserve"><tspan class="key">role     </tspan><tspan class="val">Software Developer</tspan></text>
   <text x="380" y="178" class="mono ln" style="animation-delay:1.29s" xml:space="preserve"><tspan class="key">focus    </tspan><tspan class="val">Backend &amp; APIs / Clean Architecture</tspan></text>
   <text x="380" y="200" class="mono ln" style="animation-delay:1.36s" xml:space="preserve"><tspan class="key">craft    </tspan><tspan class="val">Design Patterns / Systems Architecture</tspan></text>
@@ -113,12 +112,12 @@
   <text x="380" y="288" class="mono ln" style="animation-delay:1.64s" xml:space="preserve"><tspan class="key">tools    </tspan><tspan class="val">Git  Jira</tspan></text>
   <text x="380" y="310" class="mono ln" style="animation-delay:1.71s" xml:space="preserve"><tspan class="key">gamedev  </tspan><tspan class="val">Roblox Studio</tspan></text>
   <text x="380" y="332" class="mono ln" style="animation-delay:1.78s" xml:space="preserve"><tspan class="key">art      </tspan><tspan class="val">3D Modelling</tspan></text>
-  <text x="380" y="354" class="mono ln" style="animation-delay:1.85s" xml:space="preserve"><tspan class="key">status   </tspan><tspan class="val">coding through the void</tspan></text>
-  <text x="380" y="376" class="mono ln" style="animation-delay:1.92s" xml:space="preserve"><tspan class="key">uptime   </tspan><tspan class="val">since the big bang</tspan></text>
-  <text x="24" y="432" class="mono ln" style="animation-delay:2.09s" xml:space="preserve"><tspan class="dim"># orbit</tspan></text>
+  <text x="380" y="354" class="mono ln" style="animation-delay:1.85s" xml:space="preserve"><tspan class="key">status   </tspan><tspan class="val">building scalable backend systems</tspan></text>
+  <text x="380" y="376" class="mono ln" style="animation-delay:1.92s" xml:space="preserve"><tspan class="key">mindset  </tspan><tspan class="val">always learning, always shipping</tspan></text>
+  <text x="24" y="432" class="mono ln" style="animation-delay:2.09s" xml:space="preserve"><tspan class="dim"># currently</tspan></text>
   <text x="24" y="456" class="mono ln" style="animation-delay:2.17s" xml:space="preserve"><tspan class="key">&gt; </tspan><tspan class="val">designing backend services &amp; APIs</tspan></text>
   <text x="24" y="476" class="mono ln" style="animation-delay:2.24s" xml:space="preserve"><tspan class="key">&gt; </tspan><tspan class="val">scripting Luau systems in Roblox</tspan></text>
-  <text x="24" y="496" class="mono ln" style="animation-delay:2.31s" xml:space="preserve"><tspan class="key">&gt; </tspan><tspan class="val">sculpting 3D worlds</tspan></text>
+  <text x="24" y="496" class="mono ln" style="animation-delay:2.31s" xml:space="preserve"><tspan class="key">&gt; </tspan><tspan class="val">modelling 3D assets</tspan></text>
   <text x="380" y="432" class="mono ln" style="animation-delay:2.09s" xml:space="preserve"><tspan class="dim"># contact</tspan></text>
   <text x="380" y="456" class="mono ln" style="animation-delay:2.17s" xml:space="preserve"><tspan class="key">mail     </tspan><tspan class="val">kvxthe@gmail.com</tspan></text>
   <text x="380" y="476" class="mono ln" style="animation-delay:2.24s" xml:space="preserve"><tspan class="key">github   </tspan><tspan class="val">github.com/Kvxthe</tspan></text>
@@ -129,7 +128,7 @@
   <rect class="ln" style="animation-delay:2.59s" x="484" y="494" width="24" height="12" rx="2" fill="#A855F7"/>
   <rect class="ln" style="animation-delay:2.64s" x="510" y="494" width="24" height="12" rx="2" fill="#C084FC"/>
   <rect class="ln" style="animation-delay:2.69s" x="536" y="494" width="24" height="12" rx="2" fill="#E9D5FF"/>
-  <text x="24" y="548" class="mono ln" style="animation-delay:2.69s" xml:space="preserve"><tspan class="dim"># event horizon reached. nothing escapes, not even bugs.</tspan></text>
-  <text x="24" y="574" class="mono ln" style="animation-delay:2.79s" xml:space="preserve"><tspan class="usr">kvxthe@void</tspan><tspan class="dim">:~$ </tspan></text>
+  <text x="24" y="548" class="mono ln" style="animation-delay:2.69s" xml:space="preserve"><tspan class="dim"># clean code. solid architecture. reliable delivery.</tspan></text>
+  <text x="24" y="574" class="mono ln" style="animation-delay:2.79s" xml:space="preserve"><tspan class="usr">kvxthe@aegis</tspan><tspan class="dim">:~$ </tspan></text>
   <rect class="cursor" x="141" y="563" width="8" height="14" fill="#C084FC"/>
 </svg>

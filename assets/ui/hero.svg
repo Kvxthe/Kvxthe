@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="150" viewBox="0 0 830 150">
+<style>
+  .t { fill: #4C1D95; } .s { fill: #7C3AED; } .k { stroke: #7C3AED; } .l { stop-color: #7C3AED; }
+  .n1 { stop-color: #4C1D95; } .n2 { stop-color: #7C3AED; }
+  @media (prefers-color-scheme: dark) {
+    .t { fill: #EDE4FF; } .s { fill: #A855F7; } .k { stroke: #A855F7; } .l { stop-color: #A855F7; }
+    .n1 { stop-color: #F5EEFF; } .n2 { stop-color: #B98CFF; }
+  }
+  text { font-family: 'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; }
+
+  .role { opacity: 0; animation: cycle 9s ease-in-out infinite; }
+  @keyframes cycle { 0% { opacity: 0; } 4%, 30% { opacity: 1; } 34%, 100% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .role { animation: none; } .role:first-of-type { opacity: 1; } }
+</style>
+<defs>
+  <linearGradient id="fl" x1="0" x2="1"><stop offset="0" class="l" stop-opacity="0"/><stop offset="1" class="l" stop-opacity="0.9"/></linearGradient>
+  <linearGradient id="fr" x1="0" x2="1"><stop offset="0" class="l" stop-opacity="0.9"/><stop offset="1" class="l" stop-opacity="0"/></linearGradient>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="name" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="n1"/><stop offset="1" class="n2"/></linearGradient></defs>
+<text x="425.0" y="76" text-anchor="middle" font-size="54" font-weight="700" letter-spacing="20" fill="url(#name)" filter="url(#glow)">KVXTHE</text>
+<rect x="29.0" y="55.25" width="190" height="1.5" fill="url(#fl)"/>
+<rect x="611.0" y="55.25" width="190" height="1.5" fill="url(#fr)"/>
+<path class="s" d="M219.0 52 L223.0 56 L219.0 60 L215.0 56 Z"/>
+<path class="s" d="M611.0 52 L615.0 56 L611.0 60 L607.0 56 Z"/>
+<text class="s role" x="415.0" y="118" text-anchor="middle" font-size="15" letter-spacing="2" font-family="'JetBrains Mono','Cascadia Mono','DejaVu Sans Mono',Menlo,Consolas,'Liberation Mono',monospace" style="animation-delay:0s">Software Developer</text>
+<text class="s role" x="415.0" y="118" text-anchor="middle" font-size="15" letter-spacing="2" font-family="'JetBrains Mono','Cascadia Mono','DejaVu Sans Mono',Menlo,Consolas,'Liberation Mono',monospace" style="animation-delay:3s">Backend &amp; Systems Architecture</text>
+<text class="s role" x="415.0" y="118" text-anchor="middle" font-size="15" letter-spacing="2" font-family="'JetBrains Mono','Cascadia Mono','DejaVu Sans Mono',Menlo,Consolas,'Liberation Mono',monospace" style="animation-delay:6s">Roblox Dev &amp; 3D Modelling</text>
+</svg>

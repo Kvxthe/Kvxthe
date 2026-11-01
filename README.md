@@ -1,16 +1,8 @@
 <div align="center">
 
-<img src="assets/1000157881.png" width="100%" alt="Kvxthe">
+<img src="assets/ui/hero.svg" width="100%" alt="Kvxthe — Software Developer · Backend & Systems Architecture · Roblox Dev & 3D Modelling">
 
-<br><br>
-
-<a href="https://github.com/Kvxthe">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3200&pause=1000&color=A855F7&center=true&vCenter=true&width=640&height=40&letterSpacing=2px&lines=Software+Developer;Backend+%26+Systems+Architecture;Roblox+Dev+%26+3D+Modelling" alt="Software Developer · Backend & Systems Architecture · Roblox Dev & 3D Modelling">
-</a>
-
-<br>
-
-<img src="assets/1000165229.png" width="88%" alt="">
+<img src="assets/ui/divider.svg" width="100%" alt="">
 
 <img src="assets/ui/header-about.svg" width="100%" alt="About Me">
 
@@ -18,7 +10,7 @@
 
 <br>
 
-<img src="assets/1000165229.png" width="88%" alt="">
+<img src="assets/ui/divider.svg" width="100%" alt="">
 
 <img src="assets/ui/header-stack.svg" width="100%" alt="Tech Stack">
 
@@ -40,27 +32,25 @@
 <img src="https://img.shields.io/badge/Git-0F0A1E?style=for-the-badge&logo=git&logoColor=C084FC" alt="Git">
 <img src="https://img.shields.io/badge/Jira-0F0A1E?style=for-the-badge&logo=jira&logoColor=C084FC" alt="Jira">
 
-<br>
-
-<img src="assets/1000165229.png" width="88%" alt="">
-
-<img src="assets/ui/header-stats.svg" width="100%" alt="Cosmic Stats">
-
-<img src="assets/stats.svg" width="467" alt="Kvxthe's GitHub stats">
-<br>
-<img src="assets/top-langs.svg" width="467" alt="Kvxthe's top languages">
-
 <br><br>
 
-<img src="assets/1000165229.png" width="88%" alt="">
+<img src="assets/ui/divider.svg" width="100%" alt="">
 
-<img src="assets/ui/footer.svg" width="100%" alt="Coding through the void...">
+<img src="assets/ui/header-stats.svg" width="100%" alt="GitHub Activity">
+
+<img src="assets/stats.svg" width="830" alt="Kvxthe's GitHub activity over the last year: contributions, commits, languages and a contribution heatmap.">
+
+<br>
+
+<img src="assets/ui/divider.svg" width="100%" alt="">
+
+<img src="assets/ui/footer.svg" width="100%" alt="Thanks for visiting">
 
 <a href="mailto:kvxthe@gmail.com"><img src="https://img.shields.io/badge/kvxthe@gmail.com-0F0A1E?style=for-the-badge&logo=gmail&logoColor=C084FC" alt="kvxthe@gmail.com"></a>
 <a href="https://github.com/Kvxthe"><img src="https://img.shields.io/badge/Kvxthe-0F0A1E?style=for-the-badge&logo=github&logoColor=C084FC" alt="GitHub: Kvxthe"></a>
 
 <br><br>
 
-<img src="assets/1000157883.jpg" width="200" alt="Sleeping pixel-art cat">
+<img src="assets/1000157883.jpg" width="180" alt="Sleeping pixel-art cat">
 
 </div>

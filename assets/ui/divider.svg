@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="28" viewBox="0 0 830 28">
+<style>
+  .t { fill: #4C1D95; } .s { fill: #7C3AED; } .k { stroke: #7C3AED; } .l { stop-color: #7C3AED; }
+  .n1 { stop-color: #4C1D95; } .n2 { stop-color: #7C3AED; }
+  @media (prefers-color-scheme: dark) {
+    .t { fill: #EDE4FF; } .s { fill: #A855F7; } .k { stroke: #A855F7; } .l { stop-color: #A855F7; }
+    .n1 { stop-color: #F5EEFF; } .n2 { stop-color: #B98CFF; }
+  }
+  text { font-family: 'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; }
+</style>
+<defs>
+  <linearGradient id="fl" x1="0" x2="1"><stop offset="0" class="l" stop-opacity="0"/><stop offset="1" class="l" stop-opacity="0.9"/></linearGradient>
+  <linearGradient id="fr" x1="0" x2="1"><stop offset="0" class="l" stop-opacity="0.9"/><stop offset="1" class="l" stop-opacity="0"/></linearGradient>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="0.0" y="13.4" width="381.0" height="1.2" fill="url(#fl)"/>
+<rect x="449.0" y="13.4" width="381.0" height="1.2" fill="url(#fr)"/>
+<g filter="url(#glow)"><path class="k" fill="none" stroke-width="1.4" d="M398.0 14.0 Q415.0 3.200000000000001 432.0 14.0 Q415.0 24.799999999999997 398.0 14.0 Z"/><circle class="s" cx="415.0" cy="14.0" r="3.4"/></g>
+<circle class="s" cx="388.0" cy="14.0" r="1.6"/><circle class="s" cx="442.0" cy="14.0" r="1.6"/>
+</svg>
